@@ -21,7 +21,13 @@ conda activate drone-env
 
 ## 3. Prerequisites
 
+Install the following dependencies.
+
 ```bash
 # Install Dependencies
 bash get_pi_requirements.sh
 ```
+
+## 4. Required Software
+
+To execute the simulation, you must install two applications: the first one being [QGroundControl](https://docs.qgroundcontrol.com/master/en/qgc-user-guide/getting_started/download_and_install.html), and the second being [jMAVSim](https://www.youtube.com/watch?v=OtValQdAdrU).
