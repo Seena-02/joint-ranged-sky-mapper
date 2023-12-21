@@ -11,6 +11,12 @@ sudo apt-get -y upgrade
 # pip3 install MAVProxy
 
 pip3 install pymavlink
+pip3 install PyQt5
+pip install folium
+pip3 install googlemaps
+pip install PyQtWebEngine
+pip3 install python-dotenv
+
 
 
 
