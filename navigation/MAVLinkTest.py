@@ -48,7 +48,7 @@ def upload_mission(the_connection, mission_items):
     for waypoint in mission_items: # mission_items created based on MavLink message protocol
         print("-- Creating a waypoint")
 
-        the_connection.mav.mission_item_send(the_connection.target_system,      # Target System
+        the_connection.mav.mission_item_send(the_connection.target_system,     # Target System
                                             the_connection.target_component,   # Target Comoponent
                                             waypoint.seq,                      # Sequence
                                             waypoint.frame,                    # Frame
