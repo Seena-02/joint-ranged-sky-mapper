@@ -4,7 +4,7 @@
 
 ```bash
 # Clone Repository
-git clone https://github.com/Seena-02/titan-providence
+git clone https://github.com/Seena-02/joint-ranged-sky-mapper
 ```
 
 ## 2. Set Up Environment
@@ -13,10 +13,10 @@ We will primarily use [anaconda](https://www.anaconda.com/download) to manage al
 
 ```bash
 # Create Anaconda Env
-conda create -n "drone-env" python=3.8.0
+conda create -n "sky-mapper"
 
 # Activate Env
-conda activate drone-env
+conda activate sky-mapper
 ```
 
 ## 3. Prerequisites
